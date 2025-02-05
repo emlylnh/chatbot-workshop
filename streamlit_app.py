@@ -5,14 +5,14 @@ from llama_index.embeddings.gemini import GeminiEmbedding
 
 
 st.set_page_config(page_title="Find specific answers about the SJSU Hospitality Guide", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
-st.title("Chat with an expert on the works of Rabindranath Tagore")
+st.title("Find specific answers about the SJSU Hospitality Guide")
 
 
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
     st.session_state.messages = [
         {
             "role": "assistant",
-            "content": "Ask me a question about Rabindranath Tagore!!",
+            "content": "Find specific answers about the SJSU Hospitality Guide",
         }
     ]
 
